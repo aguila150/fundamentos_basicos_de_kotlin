@@ -24,48 +24,24 @@ fun modulo(a: Int, b: Int): Int {
 }
 
 fun esMayorQue(a: Int, b: Int): Boolean {
-    if (a > b) {
-        return true
-    }
-    else{
-     return false
-    }
+    return a > b
 }
 
 fun esMenorQue(a: Int, b: Int): Boolean {
-    if (a < b) {
-        return true
-    }
-    else{
-        return false
-    }
+   return a < b
 }
 
 fun sonIguales(a: Int, b: Int): Boolean {
-    if (a == b) {
-        return true
-    }
-    else{
-        return false
-    }
+    return a == b
 }
 
 fun esPar(numero: Int): Boolean {
-    if (numero % 2 == 0) {
-        return true
-    }
-    else{
-        return false
-    }
+    return (numero % 2 == 0)
+
 }
 
 fun esImpar(numero: Int): Boolean {
-    if (numero % 2 != 0) {
-        return true
-    }
-    else{
-        return false
-    }
+    return (numero % 2 != 0)
 }
 
 fun valorAbsoluto(numero: Int): Int {

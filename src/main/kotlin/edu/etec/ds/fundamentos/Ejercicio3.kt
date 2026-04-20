@@ -5,27 +5,26 @@ fun saludar(): String {
 }
 
 fun saludarConNombre(nombre: String): String {
-    return "Hola, Ana!"
+    return "Hola, $nombre!"
 }
 
 fun saludarPersona(nombre: String, apellido: String): String {
-    TODO("Retornar \"Hola, $nombre $apellido!\"")
+    return "Hola, $nombre$apellido!"
 }
 
 fun saludarConDefault(nombre: String = "Usuario"): String {
-    TODO("Retornar \"Hola, $nombre!\"")
+    return "Hola, $nombre!"
 }
 
 fun crearSaludo(titulo: String, nombre: String): String {
-    TODO("Retornar \"Hola, $titulo $nombre\"")
+    return "Hola, $titulo $nombre"
 }
 
 fun funcionSinRetorno(): Unit {
-    TODO("Esta funcion no retorna nada")
+    return Unit
 }
-
 fun cuadrado(numero: Int): Int {
-    TODO("Retornar el cuadrado del numero")
+    return numero * numero
 }
 
 fun contarCaracteres(texto: String): Int {
@@ -47,3 +46,4 @@ fun sumarTodos(vararg numeros: Int): Int {
 fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int {
     TODO("Aplicar una operacion lambda a dos numeros")
 }
+
