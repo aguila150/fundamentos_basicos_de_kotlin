@@ -36,11 +36,11 @@ fun String.cuentaCaracteres(): Int {
 }
 
 infix fun Int.esMayorQue(otro: Int): Boolean {
-    TODO("Funcion infix para comparar numeros")
+    return this > otro
 }
 
 fun sumarTodos(vararg numeros: Int): Int {
-    TODO("Sumar todos los numeros pasados como varargs")
+    return numeros.sum()
 }
 
 fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int {
