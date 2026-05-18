@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.etec.ds.fundamentos.Ejercicio6Test" tests="16" skipped="0" failures="1" errors="0" timestamp="2026-05-18T13:59:21" hostname="213-02" time="0.167">
+  <properties/>
+  <testcase name="testWhenDiaSemana1()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.042"/>
+  <testcase name="testWhenDiaSemana7()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.002"/>
+  <testcase name="testWhenDiaInvalidoMayor()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.002"/>
+  <testcase name="testWhenConvertirMoneda()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.01"/>
+  <testcase name="testWhenExpresion()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.004"/>
+  <testcase name="testWhenMesInvalido()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.003"/>
+  <testcase name="testWhenClasificarEdad()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.005"/>
+  <testcase name="testWhenRango()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.003"/>
+  <testcase name="testWhenExpresionSinDescuento()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.002"/>
+  <testcase name="testWhenExpresionMayor()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.03">
+    <failure message="org.opentest4j.AssertionFailedError: expected: &lt;25.0&gt; but was: &lt;62.5&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: expected: &lt;25.0&gt; but was: &lt;62.5&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at app//org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
+	at app//org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at app//org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1156)
+	at app//kotlin.test.junit5.JUnit5Asserter.assertEquals(JUnitSupport.kt:32)
+	at app//kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:63)
+	at app//kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at app//kotlin.test.AssertionsKt__AssertionsKt.assertEquals$default(Assertions.kt:62)
+	at app//kotlin.test.AssertionsKt.assertEquals$default(Unknown Source)
+	at app//edu.etec.ds.fundamentos.Ejercicio6Test.testWhenExpresionMayor(Ejercicio6Test.kt:94)
+	at java.base@21.0.10/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.10/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.10/java.util.ArrayList.forEach(ArrayList.java:1596)
+</failure>
+  </testcase>
+  <testcase name="testWhenDiaInvalido()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.001"/>
+  <testcase name="testWhenOperacion()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.002"/>
+  <testcase name="testWhenMesNombre()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.003"/>
+  <testcase name="testWhenClasificarNumero()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.002"/>
+  <testcase name="testWhenMultipleCondiciones()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.002"/>
+  <testcase name="testWhenEsPrimo()" classname="edu.etec.ds.fundamentos.Ejercicio6Test" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

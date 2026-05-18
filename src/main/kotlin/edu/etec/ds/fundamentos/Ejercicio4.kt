@@ -1,10 +1,10 @@
 package edu.etec.ds.fundamentos
 
 fun evaluarPositivo(numero: Int): String {
-    if (numero < 0)
-        return "No positive"
+    if (numero <= 0)
+        return "No positivo"
     else
-        return "Positive"
+        return "Positivo"
 }
 
 fun clasificarNumero(numero: Int): String {
@@ -27,9 +27,9 @@ fun evaluarEdad(edad: Int): String {
 
 fun obtenerDescuento(monto: Double): Double {
     return when{
-        monto >= 200 -> monto * 0.30
-        monto >=150 -> monto * 0.20
-        monto >=100 -> monto * 0.10
+        monto >= 200 -> 30.0
+        monto >=150 -> 20.0
+        monto >=100 -> 10.0
         else -> 0.0
     }
 }

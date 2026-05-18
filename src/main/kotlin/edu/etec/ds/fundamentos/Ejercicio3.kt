@@ -13,7 +13,7 @@ fun saludarPersona(nombre: String, apellido: String): String {
 }
 
 fun saludarConDefault(nombre: String = "Usuario"): String {
-    return "Hola, Usuario!"
+    return "Hola, $nombre!"
 
 }
 
@@ -35,9 +35,8 @@ fun contarCaracteres(texto: String): Int {
 }
 
 fun String.cuentaCaracteres(): Int {
-    TODO("Extension para contar caracteres de un String")
+    return this.length
 }
-
 infix fun Int.esMayorQue(otro: Int): Boolean {
     return this > otro
 
@@ -48,5 +47,5 @@ fun sumarTodos(vararg numeros: Int): Int {
 }
 
 fun aplicarOperacion(a: Int, b: Int, operacion: (Int, Int) -> Int): Int {
-    TODO("Aplicar una operacion lambda a dos numeros")
+    return operacion(a,b)
 }
